@@ -1,0 +1,65 @@
+.menu {
+    width: 200px;
+    float: left;
+}
+
+.img-index {
+    width: 547;
+    height: 189;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -300px;
+}
+
+#div-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom_btn_size {
+    width: 120px !important;
+}
+
+.title {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 11px #000000;
+    -webkit-box-shadow: 0px 0px 11px #000000;
+    box-shadow: 0px 0px 11px #000000;
+    color: rgb(122, 122, 122);
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+}
+
+#td {
+    font-size: 9px;
+}
+
+.collapsibleList li {
+    list-style-image: url('../../img/button.png');
+    cursor: auto;
+}
+
+li.collapsibleListOpen {
+    list-style-image: url('../../img/button-open.png');
+    cursor: pointer;
+}
+
+li.collapsibleListClosed {
+    list-style-image: url('../../img/button-closed.png');
+    cursor: pointer;
+}
+
+#full-alert {
+    width: 100%;
+}
+
+@media print {
+    .print th,
+    .print td {
+        border: 1px solid #ddd !important;
+    }
+}

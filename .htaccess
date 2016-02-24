@@ -1,0 +1,10 @@
+Order Deny,Allow
+Deny from all
+Allow from 81.192.69.14
+Allow from 41.87.146.94
+
+
+<FilesMatch "\.(js|css)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>

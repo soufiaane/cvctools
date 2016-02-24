@@ -1,0 +1,88 @@
+#maintable td {
+    padding: 5px;
+}
+
+tr.categories {
+    border-bottom: 1px solid black;
+}
+
+div.menu {
+    width: auto;
+    height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../images/bg1.gif);
+    border: 1px solid black;
+    font-size: 0;
+}
+
+div.menu a {
+    display: inline-block;
+    padding: 0 0px;
+    background-image: url(../images/bg.gif);
+    color: White;
+    text-decoration: none;
+    font: bold 12px Arial;
+    line-height: 47px;
+}
+
+div.menu a:hover, div.menu2 a.current {
+    background-position: 0 -48px;
+}
+
+div.menu a.dummy {
+    width: 2px;
+    padding: 0 0;
+}
+
+div.ctools {
+    display: inline-block;
+    padding: 0 1px;
+    font: bold 12px Arial;
+    line-height: 47px;
+    padding: 0 0px;
+}
+
+div.ctools a:hover {
+    background: url(../images/ctools2.gif);
+}
+
+.verticalText {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 10px;
+    white-space: nowrap;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+select {
+    height: 30px;
+    border: 0;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    text-align-last: center;
+
+}
+
+table th, td {
+    height: 30px;
+    border: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+select.shifts {
+    padding: 3px;
+    font-size: 14px;
+}
+
+
